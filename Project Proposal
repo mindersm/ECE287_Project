@@ -14,7 +14,8 @@ last step will be to create a software application that the processor will run, 
 The features of our processor will be the same as most other processors. 
 •	Fetch: where the processor finds code that it needs. 
 •	Decode: where the processor reads and breaks the code up to give it meaning.
-•	Execute: where the processor actually performs the task that described in the code. And finally write back, where the processor saves the results for later use. 
+•	Execute: where the processor actually performs the task that described in the code. And finally write back, where the 
+processor saves the results for later use. 
 
 We plan on breaking the work up into manageable chunks and work together for most of the project. We are not sure who 
 would be best suited for each task yet, so we plan on working together to find the design that would work best for us. 
