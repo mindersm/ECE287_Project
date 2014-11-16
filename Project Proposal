@@ -1,0 +1,20 @@
+ECE 287 Final Project 
+Daniel Kellett, Sean Minderlein
+We plan on making a processor much like any early processor. We are more likely to build something like the Zilog-Z80 
+as it very heavily documented. 
+
+There are five distinct steps that are involved when making a processor. The first step is to design and define the 
+system we want to make, this is the computer architecture part of the project where we list the inputs and outputs of the 
+processor. We will also define how we want the processor to act. The second step of the project will be to set up the 
+Quartus project, while seemingly trivial, this step is a chance for us to define more accurately define the inputs and 
+outputs and how we want the processor to act. The third step is to actually build the processor, where we write the code 
+out according to how we want it to act. The fourth step is one that is often missed but is still important; compile. The 
+last step will be to create a software application that the processor will run, proving that it is working properly. 
+
+The features of our processor will be the same as most other processors. 
+•	Fetch: where the processor finds code that it needs. 
+•	Decode: where the processor reads and breaks the code up to give it meaning.
+•	Execute: where the processor actually performs the task that described in the code. And finally write back, where the processor saves the results for later use. 
+
+We plan on breaking the work up into manageable chunks and work together for most of the project. We are not sure who 
+would be best suited for each task yet, so we plan on working together to find the design that would work best for us. 
