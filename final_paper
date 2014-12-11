@@ -1,0 +1,15 @@
+ECE 287 Final Project 
+Dan Kellett, Sean Minderlein
+Problem description 
+We choose to create a processor for our project that would be very similar to the processor called the Microprocessor without Interlocked Pipeline Stages or MIPS processor and would be able to execute the MIPS instruction set. The processor is main part of a computer that allows it to interpret and execute instructions, as well as write back into the memory.
+Background 
+The processor is the core of any computational device. Over the years there have been several different types of processors that have been created, with one of the first main processors being the MIPS. This processor has large amount of documentation on it and is usually thought of as a teaching processor, or a processor that is used to show students how to make one. There are five main stages or steps to any successful processor; fetch, decode, execute, load/store onto memory, and write back onto the memory. The first three stages are about retrieving and reading instructions that are located on the central memory then actually running them. The last two steps are about storing data that is created from the execute stage. 
+These stages require large memory storage, and a method of retrieving the information from the memory. Then it needs a method to read and decode the information. The main part of the processor is the arithmetic logic unit or ALU which does the actual computations, adding, subtracting, etc. The action that it does will depend on the instruction that was sent to it from the decode stage. This will then make an output that the instructions would have again told what to do with, wither save to a register, write it back to the main memory or any other various actions.
+The first group of steps implies that there is a language in the memory storage, which there is. This language is to organize the memory so that the computer can read and decode the instruction set. There are various languages, or instruction styles, even for our simple MIPS processor. The one that was used primarily to create the processor was the ‘R’ type instruction using 16 bits. The ‘R’ means that the instructions are stored in a register file and is the most complex as it allows for the largest amount of instructions The other types of instruction are ‘I’ and ‘J’. Which stand for immediate and Jump respectively. Immediate means that the instruction must operate on an immediate instruction or register value, this type is the second most complex. Jump instructions are used for jumping or branch targeting by the processor and is the simplest command of the three instructions sets.
+Description of design 
+
+Presentation of results
+Conclusion
+Appendix 
+References 
+
